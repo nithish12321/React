@@ -51,7 +51,7 @@ export function DataTable<T>({
   const [density, setDensity] = useState<TableDensity>(controller.densityDefault);
   const [selected, setSelected] = useState<Map<string, T>>(new Map());
   const containerRef = useRef<HTMLDivElement>(null);
-  const exportFn = useTableExport(id);
+  const exportFn = useTableExport<T>(id);
   const estimate = density === 'compact' ? 36 : density === 'spacious' ? 56 : 44;
   const { virtualItems, totalSize } = useVirtualRows(
     controller.rows,

@@ -108,7 +108,7 @@ export function createUserBulkActions(
     {
       id: 'activate',
       label: 'Activate',
-      icon: UserCheck className="h-3.5 w-3.5" />,
+      icon: <UserCheck className="h-3.5 w-3.5" />,
       variant: 'primary',
       onClick: (rows, clear) => {
         onAction('activate', rows);

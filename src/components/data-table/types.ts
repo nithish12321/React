@@ -3,14 +3,7 @@ import type { ReactNode } from 'react';
 export type RowIdGetter<T> = (row: T) => string;
 
 export type CellRendererName =
-  | 'badge'
-  | 'avatar'
-  | 'progress'
-  | 'link'
-  | 'currency'
-  | 'date'
-  | 'boolean'
-  | 'inline-edit';
+  'badge' | 'avatar' | 'progress' | 'link' | 'currency' | 'date' | 'boolean' | 'inline-edit';
 
 export type FilterType = 'text' | 'select' | 'date-range' | 'number-range';
 
@@ -42,14 +35,7 @@ export interface TableSort {
 export type DateRangeValue = { from?: string; to?: string };
 export type NumberRangeValue = { min?: number | null; max?: number | null };
 export type FilterValue =
-  | string
-  | number
-  | boolean
-  | string[]
-  | DateRangeValue
-  | NumberRangeValue
-  | null
-  | undefined;
+  string | number | boolean | string[] | DateRangeValue | NumberRangeValue | null | undefined;
 
 export interface TableQuery {
   page: number;

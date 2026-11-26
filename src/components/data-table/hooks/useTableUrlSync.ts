@@ -1,10 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router';
-import {
-  parseTableUrlState,
-  writeTableUrlState,
-  type TableUrlSnapshot,
-} from '../utils/urlState';
+import { parseTableUrlState, writeTableUrlState, type TableUrlSnapshot } from '../utils/urlState';
 
 export function useTableUrlSync(
   tableId: string,

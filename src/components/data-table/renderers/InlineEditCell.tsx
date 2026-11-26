@@ -43,7 +43,11 @@ export function InlineEditCell<T>({
           }}
           className="h-7 w-full rounded border border-primary bg-surface px-2 text-xs text-foreground focus:outline-none focus:ring-1 focus:ring-primary"
         />
-        <button type="button" onClick={() => void handleSave()} className="rounded p-1 text-success hover:bg-success/10">
+        <button
+          type="button"
+          onClick={() => void handleSave()}
+          className="rounded p-1 text-success hover:bg-success/10"
+        >
           <Check className="h-3.5 w-3.5" />
         </button>
         <button

@@ -5,11 +5,7 @@ import { useAppDispatch } from '@/app/hooks';
 import { pushToast } from '@/features/ui/uiSlice';
 import { MOCK_USERS, type ShowcaseUser } from '@/mocks/data/users';
 import { fetchShowcaseUsers, patchShowcaseUser } from '../api/usersApi';
-import {
-  createUserBulkActions,
-  createUserColumns,
-  createUserRowActions,
-} from './usersTableConfig';
+import { createUserBulkActions, createUserColumns, createUserRowActions } from './usersTableConfig';
 
 export function SectionB() {
   const dispatch = useAppDispatch();

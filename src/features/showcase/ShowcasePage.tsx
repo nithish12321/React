@@ -1,14 +1,6 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import {
-  Table2,
-  BarChart3,
-  Wrench,
-  Sparkles,
-  CheckCircle2,
-  ShieldCheck,
-  Palette,
-} from 'lucide-react';
+import { BarChart3, Wrench, Sparkles, CheckCircle2, ShieldCheck, Palette } from 'lucide-react';
 import { useAppDispatch } from '@/app/hooks';
 import { setActiveSection } from '@/features/ui/uiSlice';
 import { SectionA } from './sections/SectionA';
