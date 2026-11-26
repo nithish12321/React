@@ -1,0 +1,93 @@
+{
+  "app": {
+    "title": "Feature Showcase",
+    "subtitle": "A live catalogue of every capability in this project"
+  },
+  "nav": {
+    "showcase": "Showcase",
+    "sections": "Sections",
+    "general": "General",
+    "signOut": "Sign out",
+    "openMenu": "Open navigation",
+    "closeMenu": "Close navigation"
+  },
+  "topbar": {
+    "search": "Search",
+    "searchHint": "Ctrl+K",
+    "notifications": "Notifications",
+    "markAllRead": "Mark all read",
+    "noNotifications": "You're all caught up",
+    "profile": "Profile",
+    "settings": "Settings",
+    "themeLight": "Light theme",
+    "themeDark": "Dark theme",
+    "language": "Language"
+  },
+  "login": {
+    "heading": "Welcome back",
+    "subheading": "Sign in to explore the showcase",
+    "email": "Email",
+    "password": "Password",
+    "remember": "Remember me",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "forgot": "Forgot password?",
+    "orContinue": "Or continue with",
+    "google": "Google",
+    "github": "GitHub",
+    "demoHint": "Demo credentials: admin@demo.com / Admin@123",
+    "brandTitle": "Built to show everything",
+    "brandBody": "A single page that demonstrates forms, tables, theming, state and more — live."
+  },
+  "shortcuts": {
+    "title": "Keyboard shortcuts",
+    "palette": "Open command palette",
+    "shortcuts": "Show this dialog",
+    "settings": "Open settings",
+    "theme": "Toggle light/dark",
+    "close": "Close"
+  },
+  "palette": {
+    "placeholder": "Type a command…",
+    "empty": "No matching commands",
+    "navigate": "Navigate",
+    "actions": "Actions"
+  },
+  "sectionF": {
+    "title": "F · Redux & API",
+    "description": "Axios interceptors, RTK Query, token refresh queue and the live action log.",
+    "success": "Success",
+    "force401": "Force 401",
+    "force500": "Force 500",
+    "slow": "Slow network",
+    "results": "Request results",
+    "actionLog": "Live action log",
+    "clearLog": "Clear log",
+    "emptyResults": "Run a scenario to see results here",
+    "noResults": "No results yet",
+    "ok": "OK",
+    "failed": "FAILED",
+    "retried": "retried",
+    "latency": "latency",
+    "refreshed": "Session refreshed — queued requests retried",
+    "refreshFailed": "Session expired — please sign in again",
+    "err403": "You don't have permission for that resource",
+    "err404": "That resource doesn't exist",
+    "err500": "The server had a problem",
+    "errNetwork": "Network error",
+    "loggedOut": "You have been signed out"
+  },
+  "laterPhase": {
+    "title": "Arriving in a later phase",
+    "body": "This section is built in an upcoming phase of the project plan."
+  },
+  "toast": {
+    "uiOnly": "UI-only demo",
+    "forgotBody": "Password reset is a demo action in this showcase",
+    "socialBody": "{{provider}} sign-in is a demo action in this showcase"
+  },
+  "common": {
+    "loading": "Loading…",
+    "backToTop": "Back to top"
+  }
+}
